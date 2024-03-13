@@ -1,15 +1,33 @@
 * {
-    /* border: solid 2px red; */
+    border: solid 2px red;
 }
 
 body {
     display: grid;
     grid-template: 1fr 4fr / 1fr 4fr;
+    margin: 0;
 }
 
 .site-header {
+    display: grid;
     grid-column-start: 2;
     grid-row-start: 1;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.site-header-options {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.site-header-search {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.site-header-user {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3 ;
 }
 
 .site-main {
@@ -23,8 +41,22 @@ body {
     background-color: white;
 }
 
+.site-main-announcements {
+    display: grid;
+}
+
+.site-main-projects {
+    display: grid;
+}
+
+.site-main-trending {
+    display: grid;
+}
+
 .site-sidebar {
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 3;
