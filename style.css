@@ -1,3 +1,31 @@
 * {
     /* border: solid 2px red; */
 }
+
+body {
+    display: grid;
+    grid-template: 1fr 4fr / 1fr 4fr;
+}
+
+.site-header {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.site-main {
+    background-color: gray;
+    display: grid;
+}
+
+.site-main-announcements-item, 
+.site-main-projects-item, 
+.site-main-trending-item {
+    background-color: white;
+}
+
+.site-sidebar {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
