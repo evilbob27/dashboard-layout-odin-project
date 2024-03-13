@@ -51,6 +51,7 @@ body {
 .site-main {
     background-color: gray;
     display: grid;
+    grid-template:
 }
 
 .site-main-announcements-item, 
@@ -65,6 +66,7 @@ body {
 
 .site-main-projects {
     display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
 }
 
 .site-main-trending {
