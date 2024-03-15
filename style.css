@@ -51,7 +51,7 @@ body {
 .site-main {
     background-color: gray;
     display: grid;
-    grid-template: 1fr 4fr / 2fr 1fr;
+    grid-template: 1fr 1fr 4fr / 2fr 1fr;
 }
 
 .site-main-announcements-item, 
@@ -63,6 +63,11 @@ body {
 .site-main-announcements {
     display: grid;
     grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.site-main-announcements-header {
+    grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
 
@@ -70,7 +75,13 @@ body {
     display: grid;
     gap: 2rem;
     grid-column: 1 / 2;
+    grid-row: 2 / 4;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
+}
+
+.site-main-projects-header {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 .site-main-projects-item {
@@ -79,9 +90,10 @@ body {
 }
 
 .site-main-trending {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
 }
 
 .site-sidebar {
