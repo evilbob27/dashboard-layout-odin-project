@@ -51,6 +51,7 @@ body {
 .site-main {
     background-color: gray;
     display: grid;
+    grid-template: 1fr 4fr / 2fr 1fr;
 }
 
 .site-main-announcements-item, 
@@ -61,15 +62,26 @@ body {
 
 .site-main-announcements {
     display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
 .site-main-projects {
     display: grid;
+    gap: 2rem;
+    grid-column: 1 / 2;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
+}
+
+.site-main-projects-item {
+    border-radius: 2rem;
+    padding: 1rem;
 }
 
 .site-main-trending {
     display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
 
 .site-sidebar {
