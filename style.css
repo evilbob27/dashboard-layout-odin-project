@@ -1,5 +1,5 @@
 * {
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 body {
@@ -51,7 +51,6 @@ body {
 .site-main {
     background-color: gray;
     display: grid;
-    grid-template:
 }
 
 .site-main-announcements-item, 
