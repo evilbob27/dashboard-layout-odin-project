@@ -53,12 +53,15 @@ body {
     display: grid;
     gap: 2rem;
     grid-template: 1fr 4fr / 2fr 1fr;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
 }
 
-.site-main-announcements-item, 
+.site-main-announcements-content, 
 .site-main-projects-item, 
-.site-main-trending-item {
+.site-main-trending-content {
     background-color: white;
+    border-radius: 2rem;
 }
 
 .site-main-announcements {
@@ -82,7 +85,6 @@ body {
 }
 
 .site-main-projects-item {
-    border-radius: 2rem;
     padding: 1rem;
 }
 
