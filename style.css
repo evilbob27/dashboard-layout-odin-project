@@ -90,7 +90,7 @@ body {
     padding: 1rem;
 }
 
-.site-main-trending {
+.site-main-trending-content {
     display: flex;
     flex-direction: column;
     grid-column: 2 / 3;
