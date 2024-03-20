@@ -5,7 +5,15 @@
 body {
     display: grid;
     grid-template: 1fr 4fr / 1fr 4fr;
-    margin: 0;
+    margin: 0rem;
+}
+
+h3 {
+    margin: 0rem;
+}
+
+p {
+    margin: 0rem;
 }
 
 .site-header {
@@ -21,6 +29,15 @@ body {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     justify-content: space-around;
+    list-style: none;
+    padding-left: 0rem;
+}
+
+.site-header-options-item {
+    background-color: aqua;
+    border-radius: 2rem;
+    list-style: none;
+    padding: 1rem 2.5rem 1rem 2.5rem;
 }
 
 .site-header-nav {
@@ -52,8 +69,7 @@ body {
     background-color: gray;
     display: grid;
     gap: 2rem;
-    grid-template: 1fr 1fr / 2fr 1fr;
-    padding-bottom: 4rem;
+    grid-template: 1fr 1fr / 2.5fr 1fr;
     padding-left: 2rem;
 }
 
