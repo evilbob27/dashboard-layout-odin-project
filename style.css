@@ -3,6 +3,8 @@
 }
 
 body {
+    border-left: solid 16rem black;
+    border-right: solid 16rem black;
     display: grid;
     grid-template: 1fr 4fr / 1fr 4fr;
     margin: 0rem;
