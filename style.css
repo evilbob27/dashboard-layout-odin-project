@@ -2,6 +2,10 @@
     /* border: solid 2px red; */
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     border-left: solid 16rem black;
     border-right: solid 16rem black;
