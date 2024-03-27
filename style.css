@@ -24,6 +24,7 @@ p {
 }
 
 .site-header {
+    box-shadow: 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     display: grid;
     grid-column-start: 2;
     grid-row-start: 1;
@@ -53,7 +54,9 @@ p {
     border-radius: 2rem;
     color: white;
     list-style: none;
+    margin: 0rem 1rem 0rem 1rem;
     padding: 1rem 2.5rem 1rem 2.5rem;
+    width: 8.125rem;
 }
 
 .site-header-search {
