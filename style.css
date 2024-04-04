@@ -14,7 +14,18 @@ body {
     margin: 0rem;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 2rem 0rem .5rem;
+}
+
+h4 {
+    font-size: 1.25em;
     color: black;
     margin: 0rem;
 }
@@ -29,6 +40,10 @@ p {
     --dark-yellow: #f0b429;
     --light-blue: #1992d4;
     --light-gray: #e2e8f0;
+}
+
+.sidebar-svg {
+    fill: white;
 }
 
 .site-header {
@@ -171,6 +186,7 @@ p {
 
 .site-main-projects-item-button-list {
     display: flex;
+    gap: .75rem;
     list-style: none;
     place-content: end end;
 }
@@ -202,6 +218,13 @@ p {
     flex-direction: column;
     grid-column-start: 1;
     grid-row: 1 / 3;
+}
+
+.site-sidebar-header {
+    display: flex;
+    align-items: center;
+    margin: 0rem 0rem 0rem 1rem;
+    gap: .75rem;
 }
 
 .site-sidebar-nav-list,
