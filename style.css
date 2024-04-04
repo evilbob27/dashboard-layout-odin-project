@@ -164,6 +164,7 @@ p {
 .site-main-projects-item {
     display: flex;
     flex-direction: column;
+    justify-content:space-between;
     border-left: .5rem solid var(--dark-yellow);
     padding: 2rem 1rem;
 }
