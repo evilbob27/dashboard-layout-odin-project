@@ -223,6 +223,7 @@ p {
     flex-direction: column;
     grid-column-start: 1;
     grid-row: 1 / 3;
+    padding: 0rem 1rem 0rem 0rem;
 }
 
 .site-sidebar-header {
