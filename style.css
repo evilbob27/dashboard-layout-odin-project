@@ -89,6 +89,8 @@ p {
     border-radius: 2rem;
     border: none;
     height: 2rem;
+    margin: 0rem 1rem;
+    width: 100%;
 }
 
 .site-header-search-button,
@@ -100,6 +102,13 @@ p {
 .site-header-search-button:hover,
 .site-main-projects-item-button:hover {
     cursor: pointer;
+}
+
+.site-header-search-form {
+    display: flex;
+    place-content: center center;
+    margin: 0rem 3rem;
+    width: 100%;
 }
 
 .site-header-user {
@@ -157,7 +166,13 @@ p {
     flex-direction: column;
     border-left: .5rem solid var(--dark-yellow);
     padding: 2rem 1rem;
-}   
+}
+
+.site-main-projects-item-button-list {
+    display: flex;
+    list-style: none;
+    place-content: end end;
+}
 
 .site-main-trending {
     display: flex;
