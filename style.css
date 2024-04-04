@@ -284,8 +284,8 @@ p {
 
 
 .user-image-large {
-    background-color: var(--dark-yellow);
+    /* background-color: var(--dark-yellow); */
     border-radius: 90%;
     height: 6rem;
-    padding: .5rem;
+    /* padding: .5rem; */
 }
