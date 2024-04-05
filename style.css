@@ -91,12 +91,14 @@ p {
 .site-header-nav {
     align-items: center;
     display: flex;
+    gap: 2rem;
     justify-content: end;
 }
 
 .site-header-nav-user {
     align-items: center;
     display: flex;
+    gap: 2rem;
 }
 
 .site-header-options-list {
