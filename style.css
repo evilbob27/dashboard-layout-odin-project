@@ -38,7 +38,11 @@ h4 {
 }
 
 img {
+    background-color: var(--dark-yellow);
+    border-radius: 90%;
     height: 5rem;
+    margin: 0rem 2rem 0rem 1rem;
+    padding: .25rem;
 }
 
 main {
@@ -91,14 +95,17 @@ p {
 .site-header-nav {
     align-items: center;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: end;
+}
+
+.site-header-nav-bell {
+    padding: .25rem 0rem 0rem 0rem;
 }
 
 .site-header-nav-user {
     align-items: center;
     display: flex;
-    gap: 2rem;
 }
 
 .site-header-options-list {
@@ -199,9 +206,34 @@ p {
 
 .site-main-announcements {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
+}
+
+.site-main-announcements-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.site-main-announcements-item {
+    padding: 1rem 0rem;
+}
+
+.site-main-announcements-item:nth-child(2){
+    border-bottom: solid .125rem var(--light-gray);
+    border-top: solid .125rem var(--light-gray);
+}
+
+
+.site-main-announcements-large-text {
+    font-size: 1rem;
+}
+
+.site-main-announcements-small-text {
+    font-size: .825rem;
 }
 
 .site-main-projects {
@@ -236,13 +268,23 @@ p {
     flex-direction: column;
 }
 
+.site-main-trending-about {
+    font-size: .9rem;
+}
+
 .site-main-trending-content {
+    align-items: start;
     display: flex;
     flex-direction: column;
     flex: 1;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    gap: 1rem;
     justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.site-main-trending-handle {
+    color: black;
+    font-size: .9rem;
 }
 
 .site-main-trending-item {
@@ -289,5 +331,6 @@ p {
     /* background-color: var(--dark-yellow); */
     border-radius: 90%;
     height: 6rem;
+    margin: 0rem 1rem 1rem 0rem;
     /* padding: .5rem; */
 }
